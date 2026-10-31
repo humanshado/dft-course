@@ -17,7 +17,8 @@ Run, converge and defend DFT calculations in Quantum ESPRESSO for a PhD research
 - Visual learner: every lesson needs diagrams or interactive visuals
 - Calculation-first: derivations only where they improve how calculations are run
 - Starting from undergrad physics/chemistry with rusty quantum mechanics
-- Specific research application to be decided later; time per week not yet stated
+- 30 minutes per day, every day
+- Specific research application to be decided later
 
 ## Out of scope (for now)
 - Writing a DFT code from scratch

@@ -8,7 +8,7 @@
 
 - Software: Quantum ESPRESSO. Hardware: laptop only (keep examples small; flag when something needs a cluster).
 - Purpose: PhD research project + thesis. Application area not yet chosen ("all, to be specified later").
-- Time per week: not yet stated.
+- Time: 30 minutes per day, every day. Size each lesson to fit one 30-min sitting (~20 min new material + ~10 min retrieval/review of earlier lessons for spacing).
 
 ## Working notes
 - Lesson 1 (exponential wall → density) published. Awaiting: quiz result + the one-sentence "explain it back" answer — use it as evidence for a learning record.
