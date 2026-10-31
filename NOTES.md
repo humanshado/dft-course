@@ -3,7 +3,7 @@
 - **Visual learner.** Every lesson should lean on diagrams/illustrations; interactive visuals where a parameter matters.
 - **Practical first.** Primary goal is running DFT calculations (materials and/or molecules). Include proofs/derivations only when they help run calculations well (choosing settings, diagnosing failures). Don't drift into formalism for its own sake.
 - **Long horizon.** Wants to reach PhD-level competence eventually.
-- Prefers this `teach` workspace style over chat-only tutoring.
+- **Prefers conversational tutoring** (anthropic-skills:learn style): detailed explanations in chat, one step and one question at a time, with inline diagrams. Tried the HTML-lesson workspace style and found it less effective. This repo is now just a course notebook (notes, records, optional reference sheets), not the main teaching channel.
 - Environment: cloud container is ephemeral — remind user to keep a copy of the workspace (download or push to a repo).
 
 - Software: Quantum ESPRESSO. Hardware: laptop only (keep examples small; flag when something needs a cluster).
