@@ -16,7 +16,9 @@ A personal, self-paced course in **Density Functional Theory**: from rusty under
 
 ## Viewing the lessons
 
-Open `index.html` in a browser (download/clone the repo first; links between pages are relative). Lessons are self-contained HTML with interactive figures and quizzes.
+**Online:** https://humanshado.github.io/dft-course/ (GitHub Pages, served from `main`).
+
+**Offline:** Open `index.html` in a browser (download/clone the repo first; links between pages are relative). Lessons are self-contained HTML with interactive figures and quizzes.
 
 ## Lessons so far
 
