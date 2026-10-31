@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Numbers &amp; Scaling</title>
+<link rel="stylesheet" href="../assets/course.css">
+</head>
+<body>
+<main>
+<nav class="course-nav">
+  <a href="../index.html">Course home</a>
+  <span>Reference</span>
+</nav>
+
+<h1>Numbers &amp; Scaling</h1>
+<p class="subtitle">Quick reference: what costs what. Grows as the course does.</p>
+
+<h2>Storage</h2>
+<div class="table-wrap">
+<table>
+  <tr><th>Object</th><th>Depends on</th><th>Numbers on an <i>M</i>-point-per-axis grid</th><th>From</th></tr>
+  <tr><td class="wf">Many-electron wavefunction ψ(<b>r</b><sub>1</sub>,…,<b>r</b><sub><i>N</i></sub>)</td><td>3<i>N</i> coordinates</td><td><i>M</i><sup>3<i>N</i></sup>, exponential in <i>N</i></td><td><a href="../lessons/0001-the-exponential-wall.html">L1</a></td></tr>
+  <tr><td class="dn">Electron density n(<b>r</b>)</td><td>3 coordinates</td><td><i>M</i><sup>3</sup>, independent of <i>N</i></td><td><a href="../lessons/0001-the-exponential-wall.html">L1</a></td></tr>
+</table>
+</div>
+
+<h2>Key formulas</h2>
+<p class="eq"><span class="dn">n(<b>r</b>)</span> = <i>N</i> ∫ |<span class="wf">ψ(<b>r</b>, <b>r</b><sub>2</sub>, …, <b>r</b><sub><i>N</i></sub>)</span>|² d<b>r</b><sub>2</sub> … d<b>r</b><sub><i>N</i></sub>
+&nbsp;&nbsp;&nbsp; ∫ n(<b>r</b>) d<b>r</b> = <i>N</i></p>
+
+<h2>Handy conversions</h2>
+<ul>
+  <li>1 double-precision number = 8 bytes; a complex number = 16 bytes</li>
+  <li>16 GB of RAM ≈ 2 × 10<sup>9</sup> real numbers</li>
+  <li>Atoms in the observable universe ≈ 10<sup>80</sup> (standard rough estimate)</li>
+</ul>
+
+<h2>Rules of thumb</h2>
+<ul>
+  <li><b>The exponential wall</b> (Kohn): the cost of storing ψ is multiplied by <i>M</i><sup>3</sup> for every added electron.</li>
+  <li>DFT's move: work with n(<b>r</b>), which is 3D for any number of electrons.</li>
+</ul>
+</main>
+</body>
+</html>
